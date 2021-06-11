@@ -71,13 +71,13 @@ d는 상대적인 숫자이므로 실제 데이터에서는 계수를 조정해 
 
 임의의 4차함수 8a^4 + 3a^3 -6a^2 로 실험을 해본 결과
 
-![제목 없음](\제목 없음.png)
+![제목 없음](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%A0%9C%EB%AA%A9%20%EC%97%86%EC%9D%8C.png)
 
 결과가 잘 잡히지 않았다 그래서 확률 값을 출력해본 결과 온도가 60도 까지 떨어져도 확률은 0.9내외로 유지되고 있어 값이 거의 랜덤하게 나오고 있었다.
 
 확률 p0의 계수를 조절하기위해  d에 120을 곱해준 결과 온도가 낮아지면서 확률이 줄어들어서 오차 범위 0.5내외로 근사한 결과를 얻어낼 수 있었다.
 
-![4차 결과](\4차 결과.png)
+![4차 결과](https://github.com/tjsdn9803/Simulated_annealing/blob/main/4%EC%B0%A8%20%EA%B2%B0%EA%B3%BC.png)
 
 ## 2) 임의의 데이터의 curve fitting을 위한 parameter estimation
 
@@ -91,7 +91,7 @@ d는 상대적인 숫자이므로 실제 데이터에서는 계수를 조정해 
 
 에서 나스닥 지수 데이터를 다운받아 엑셀로 열어서 분산형 차트로 표현한 결과 (총138개의 데이터)
 
-![나스닥 엑셀 그래프 a](C:\Users\samsung\ComAlgo\Simulated\나스닥 엑셀 그래프 a.PNG)
+![나스닥 엑셀 그래프 a](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EB%82%98%EC%8A%A4%EB%8B%A5%20%EC%97%91%EC%85%80%20%EA%B7%B8%EB%9E%98%ED%94%84%20a.PNG)
 
 지수함수의 형태로 나타났다.(편의를 위해 x축은 한달이 지날때마다 1이 증가하게 설정하였다.)
 
@@ -126,7 +126,7 @@ public double fit(double a,double b) {
 
 그리고 y축과 x축의 범위를 설정해주고 확률 p0를 조절하여 작동시키면
 
-![실행결과4](C:\Users\samsung\ComAlgo\Simulated\실행결과4.PNG)
+![실행결과4](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%8B%A4%ED%96%89%EA%B2%B0%EA%B3%BC4.PNG)
 
 적절한 a와 b값이 나온다.
 
