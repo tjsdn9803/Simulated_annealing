@@ -138,12 +138,13 @@ public double fit(double a,double b) {
 
 하지만 만약 cost function의 그래프가 4차이상의 복잡한 그래프로 나온다면 계수를 잘 조절해 주지 않는 한 전역 최적점을 찾기가 매우 까다로울것 같다. 
 
-### 3-1) 확률p0에 따른 이웃해의 탐색활동 
+### 3-1) 확률p0에 따른 이웃해의 탐색활동        
 
-위에서 p0을 조절하여 적절한 값을 갖게 되는 과정을 설명 하겠다.
+위에서 p0을 조절하여 적절한 값을 갖게 되는 과정을 설명 하겠다.            
+                 
 ![d 10](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/d%2010.PNG)     
       
-d에 10을 곱한후 관찰한 이웃해의 x축 변화이다. 상당히 폭이 큰것을 볼수 있다.
+d에 10을 곱한후 관찰한 이웃해의 x축 변화이다. 상당히 폭이 큰것을 볼수 있다.             
 ![d 80](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/d%2080.PNG)      
          
 ![d 200](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/d%20200.PNG)      
