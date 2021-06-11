@@ -141,6 +141,13 @@ public double fit(double a,double b) {
 ### 3-1) 확률p0에 따른 이웃해의 탐색활동 
 
 위에서 p0을 조절하여 적절한 값을 갖게 되는 과정을 설명 하겠다.
+![d 10](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/d%2010.PNG)
+d에 10을 곱한후 관찰한 이웃해의 x축 변화이다. 상당히 
+![d 80](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/d%2080.PNG)
+
+![d 200](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/d%20200.PNG)
+
+![d 600](https://github.com/tjsdn9803/Simulated_annealing/blob/main/%EC%83%88%20%ED%8F%B4%EB%8D%94/d%20600.PNG)
 
 
 
